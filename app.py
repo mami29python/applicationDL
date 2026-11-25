@@ -17,7 +17,7 @@ st.set_page_config(
 # ---------------------------------------------------------------
 # Paramètres issus de l'entraînement
 # ---------------------------------------------------------------
-MODEL_PATH = "vgg16_model_finetuned.h5"  # fichier du modèle, placé dans le dépôt GitHub à côté de app.py
+MODEL_PATH = "Modeles/vgg16_model_finetuned.h5"  # fichier du modèle, placé dans le dépôt GitHub à côté de app.py
 
 IMG_SIZE = (150, 150)
 CLASSES = ["Normal", "Tuberculosis"]
